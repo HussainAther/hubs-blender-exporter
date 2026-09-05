@@ -8,7 +8,8 @@ from . import third_party
 from . import debugger
 from . import icons
 
-ADDON_VERSION = (1, 7, 2)
+
+ADDON_VERSION = (1, 8, 0)
 
 bl_info = {
     "name": "Hubs Blender Addon",
@@ -23,7 +24,6 @@ bl_info = {
     "warning": "",
     "category": "Generic"
 }
-
 
 create_prefs_dir()
 
