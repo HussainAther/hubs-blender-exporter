@@ -7,12 +7,15 @@ from . import preferences
 from . import third_party
 from . import debugger
 from . import icons
+
+ADDON_VERSION = (1, 7, 2)
+
 bl_info = {
     "name": "Hubs Blender Addon",
     "author": "The Hubs Community",
     "description": "Tools for developing glTF assets for Hubs",
     "blender": (3, 1, 2),
-    "version": (1, 7, 2, "dev_build"),
+    "version": (*ADDON_VERSION, "dev_build"),
     "location": "",
     "wiki_url": "https://github.com/Hubs-Foundation/hubs-blender-exporter",
     "tracker_url": "https://github.com/Hubs-Foundation/hubs-blender-exporter/issues",
